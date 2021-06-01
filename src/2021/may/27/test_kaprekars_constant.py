@@ -19,7 +19,7 @@ def test_six():
     assert kaprekars_constant(7614) == 1
 
 def test_seven():
-    assert kaprekars_constant(8774) == 812
+    assert kaprekars_constant(8774) == 4
 
 def test_eight():
     assert kaprekars_constant(7847) == 4
@@ -32,3 +32,17 @@ def test_ten():
 
 
 
+def main():
+    test_first()
+    test_second()
+    test_third()
+    test_fourth()
+    test_five()
+    test_six()
+    test_seven()
+    test_eight()
+    test_nine()
+    test_ten()
+
+if __name__ == '__main__':
+    main()

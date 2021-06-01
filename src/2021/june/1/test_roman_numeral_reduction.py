@@ -27,4 +27,17 @@ def test_eight():
 def test_nine():
     assert roman_numeral_reduction("LXXXVVVIIIII") == "C"
 
+def main():
+    print("fish")
+    test_first()
+    test_second()
+    test_third()
+    test_fourth()
+    test_five()
+    test_six()
+    test_seven()
+    test_eight()
+    test_nine()
 
+if __name__ == '__main__':
+    main()
