@@ -1,6 +1,6 @@
 # braingu-toy-problems
 
-Brain teasers for BrainGu geniuses. Uses Jest test runner(https://jestjs.io/)
+Brain teasers for BrainGu geniuses. Uses Jest test runner (https://jestjs.io/) and pytest (https://docs.pytest.org/en/)
 
 ## Get started
 
@@ -31,16 +31,20 @@ Enter pattern for your test file name
 Make sure your python is up to date, then enter the following to install pytest
 
 ```
-pip -U install pytest
+pip3 install --user pytest
 ```
 
 To run all test suites, just run:
 
 ```
-python -m pytest
+python3 -m pytest
 ```
 
-I am a noob at python, please help me build the configs for python side
+Run individual test with:
+
+```
+python3 -m pytest -k <pattern>
+```
 
 ## License
 
