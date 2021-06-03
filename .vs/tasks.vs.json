@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-sudoku_quadrant_checker",
+      "appliesTo": "src/2021/may/26/sudoku_quadrant_checker.py",
+      "type": "launch"
+    }
+  ]
+}

@@ -16,7 +16,7 @@ def test_five():
     assert gas_station(["5", "3:3", "1:2", "2:2", "3:2", "4:3"]) == 3
 
 def test_six():
-    assert gas_station("5", "0:1", "2:1", "3:2", "4:6", "4:3") == 2
+    assert gas_station(["5", "0:1", "2:1", "3:2", "4:6", "4:3"]) == 2
 
 def test_seven():
     assert gas_station(["2", "1:2", "3:2"]) == 2
@@ -30,3 +30,17 @@ def test_nine():
 def test_ten():
     assert gas_station(["5", "2:3", "2:3", "2:3", "500:1", "0:495"]) == 4
 
+def main():
+    test_first()
+    test_second()
+    test_third()
+    test_fourth()
+    test_five()
+    test_six()
+    test_seven()
+    test_eight()
+    test_nine()
+    test_ten()
+
+if __name__ == '__main__':
+    main()

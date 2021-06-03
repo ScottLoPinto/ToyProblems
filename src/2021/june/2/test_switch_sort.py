@@ -30,3 +30,17 @@ def test_nine():
 def test_ten():
     assert switch_sort([5, 4, 3, 1, 2]) == 3
 
+def main():
+    test_first()
+    test_second()
+    test_third()
+    test_fourth()
+    test_five()
+    test_six()
+    test_seven()
+    test_eight()
+    test_nine()
+    test_ten()
+
+if __name__ == '__main__':
+    main()
